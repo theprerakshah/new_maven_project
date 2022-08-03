@@ -15,7 +15,9 @@ public class secondtest extends TestCase {
 		System.out.println(m.matches());
 		m=p.matcher("fsok");
 		System.out.println(m.matches());
-		
+		m=p.matcher(".dfok");
+		System.out.println(m.matches());		
+	    
 		
 	   
 		
